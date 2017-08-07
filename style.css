@@ -2,9 +2,61 @@
 font-family: 'Roboto Slab', serif;*/
 
 body{
-
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
 }
 
 .header{
+  font-family: 'Roboto Slab';
+  font-size: 24px;
+  text-align: center;
+  background-color: black;
+  padding: 10px;
+}
+
+.header h1{
+  color: white;
+  font-weight: 100;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  background-color: #f3f3f3;
+  padding-bottom: 60px;
+}
+
+.basics{
+  flex-basis: 250px;
+  padding: 15px;
+}
+
+.basics h2{
+  font-family: 'Roboto Slab';
+  font-size: 32px;
+}
+
+.story{
+  flex-basis: 400px;
+  padding: 15px;
+}
+
+.story h2{
   font-family: Roboto Slab;
+  font-size: 32px;
+}
+
+.story p{
+  line-height: 1.8;
+  padding-right: 20px;
+}
+
+.pic{
+  margin-top: 35px;
+}
+
+.pic img{
+  width: 120px;
+  padding: 15px;
+  border-radius: 82px;
 }
